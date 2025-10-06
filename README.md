@@ -7,11 +7,16 @@ Forked for use with [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfVie
 
 API is highly compatible with original version, only additional methods were created.
 
-# This repo was forked from [PdfiumAndroid](https://github.com/barteksc/PdfiumAndroid)
+# This repo was forked from [PdfiumAndroid](https://github.com/mhiew/PdfiumAndroid)
 
 The purpose is to remove old support libraries so we no longer need to use jetifier.
 
-It will be used with the forked [AndroidPdFViewer](https://github.com/mhiew/AndroidPdfViewer)
+It will be used with the forked [AndroidPdFViewer](https://github.com/milwen1337/AndroidPdfViewer)
+
+## What's new in 1.9.3
+* Update Gradle plugins and configurations
+* Update compile sdk to 36
+* Change minimum SDK to 23
 
 ## What's new in 1.9.2
 This is functionally the same as 1.9.1 just fixing some documentation on maven central
@@ -34,7 +39,7 @@ This is functionally the same as 1.9.1 just fixing some documentation on maven c
 ## Installation
 Add to _build.gradle_:
 
-`compile 'com.github.mhiew:pdfium-android:1.9.2'`
+`compile 'com.github.milwen1337:pdfium-android:1.9.3'`
 
 Library is available in jcenter and Maven Central repositories.
 
